@@ -35,7 +35,7 @@ export default function Hero() {
 				</p>
 				<form className="flex border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
 					<input
-						className="bg-transparent px-4 md:flex-1 outline-none "
+						className="bg-transparent px-4 md:flex-1 outline-none w-full"
 						type="email"
 						placeholder="Enter your email"
 					/>
