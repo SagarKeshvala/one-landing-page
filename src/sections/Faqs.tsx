@@ -48,7 +48,7 @@ export default function Faqs() {
 						<div
 							key={faq.question}
 							onClick={() => setSelectedIndex(index)}
-							className="bg-neutral-900 rounded-2xl border border-white/10 p-6"
+							className="bg-neutral-900 rounded-2xl border border-white/10 p-6 cursor-pointer"
 						>
 							<div className="flex justify-between items-center">
 								<h3 className="font-medium">{faq.question}</h3>
